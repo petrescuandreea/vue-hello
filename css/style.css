@@ -1,0 +1,35 @@
+/* generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(248,248,248,255);
+}
+
+
+
+/* header  */
+#title {
+    text-align: center;
+    margin: 40px;
+}
+
+.green {
+    color: rgba(46,180,126,255);
+}
+
+
+
+/* main  */
+#vue-image.dflex {
+    display: flex;
+    justify-content: center;
+}
+
+img.my-style {
+    max-width: 500px;
+    border: 1px solid rgba(46,180,126,255);
+}
