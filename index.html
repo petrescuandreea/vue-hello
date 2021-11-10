@@ -10,8 +10,15 @@
 <body>
     <!-- istanza pageTitle di VUE  -->
     <header id="title">
-        <h1>{{myTitle}}</h1>
+        <h1 :class="titleColor">{{myTitle}} </h1>
     </header>
+
+    <main>
+        <!-- istanza vuePhoto di VUE  -->
+        <div id="vue-image" :class='divPos'>
+            <img v-bind:src="photo" :class="imgStyle" alt="">
+        </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script type="text/javascript" src="js/main.js"></script>
